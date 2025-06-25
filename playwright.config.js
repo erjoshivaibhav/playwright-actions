@@ -21,6 +21,9 @@ export default defineConfig({
     browserName: 'chromium',
     headless: true, // Set to true for headless mode
     trace: 'retain-on-failure', // Save trace for debugging
+    screenshot: 'only-on-failure', // Take screenshots only on failure
+    video: 'retain-on-failure', // Record video only on failure
+    
    
   },
 

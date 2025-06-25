@@ -9,6 +9,5 @@ test("E2E Test", async ({page}) => {
     await loginPage.login();
     await homePage.closeChatbot();
     await homePage.navigateToViewAndUpdateProfile();
-    await page.pause(); // Pause to observe the result;
    
 })
