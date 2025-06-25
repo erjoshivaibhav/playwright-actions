@@ -19,7 +19,7 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     browserName: 'chromium',
-    headless: false, // Set to true for headless mode
+    headless: true, // Set to true for headless mode
     trace: 'retain-on-failure', // Save trace for debugging
    
   },
